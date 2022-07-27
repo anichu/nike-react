@@ -3,6 +3,7 @@
 
 body {
 	font-family: "Roboto", sans-serif !important;
+	background-color: white;
 }
 
 /* Navbar */
@@ -48,6 +49,31 @@ header {
 	width: 45%;
 }
 
+/* Card */
+.card-image {
+	height: 350px !important;
+}
+.card-image-bg {
+	background-color: #f1f1f1 !important;
+}
+.card-price {
+	color: #fa804c;
+}
+
+/* footer */
+.footer-bg {
+	background-color: rgb(254, 234, 233) !important;
+}
+
+@media only screen and (max-width: 992px) {
+	.advantage-section-left {
+		width: 100% !important;
+	}
+	.advantage-section-right {
+		width: 100% !important;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.top-banner-right-side {
 		width: 100% !important;
@@ -55,6 +81,18 @@ header {
 	.top-banner-left-side {
 		width: 100% !important;
 	}
+	.advantage-section-left {
+		width: 100% !important;
+	}
+	.advantage-section-right {
+		width: 100% !important;
+	}
+	.card-image {
+		height: auto !important;
+	}
+}
+
+@media only screen and (max-width: 576px) {
 }
 
 @media only screen and (max-width: 380px) {
